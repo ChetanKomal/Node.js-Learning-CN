@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <!--we can do this by using locals keyword also our choise
+        <%= locals.title %>-->
+<title>
+    <%= title %>    
+</title>
+    </head>
+    <body>
+        <h1><%= title%></h1>
+        <ul>
+           <% for(let i=1;i<=10;i++){%>
+            <li>
+                <%=i %>
+            </li>
+            <%}%>
+
+        </ul>
+    </body>
+</html>
